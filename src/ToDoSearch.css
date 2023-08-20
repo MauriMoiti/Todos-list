@@ -1,0 +1,24 @@
+.container-td-search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+.td-search {
+    height: 30px;
+    width: 300px;
+    font-size: 16px;
+    text-align: center;
+    border: 2px solid #f5b349;
+}
+.td-search:hover {
+    background:#F7E8D6;
+    box-shadow: 0 0 5px #aaa
+}
+.td-search:focus {
+    background:#F7E8D6;
+    outline: solid;
+    outline-color: transparent;
+    box-shadow: 0 0 5px #aaa;
+}

@@ -1,0 +1,21 @@
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding: 48px;
+    /* 44 */
+    background: #e8d5b7;
+    color: #0e2430;
+}
+
+span {
+    color: #fc3a51;
+    margin: 0px;
+    padding: '0';
+}
+
+
+.span-completed {
+    color: #13747d; 
+
+}

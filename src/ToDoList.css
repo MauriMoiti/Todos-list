@@ -1,0 +1,46 @@
+.container-main-lt {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-lt {
+    width: 342px;
+    height: 465px;
+    overflow-y: scroll;
+}
+.section-lt::-webkit-scrollbar {
+    width: 5px;  /* Ancho del scrollbar vertical */
+}
+
+.section-lt::-webkit-scrollbar-track {
+    background-color: transparent; /* Color de fondo del track */
+    border-radius: 4px; 
+}
+
+.section-lt::-webkit-scrollbar-thumb {
+    background-color: #5c5c5c;  /* Color del thumb (la barra deslizable) */
+    border-radius: 4px; 
+    transition: background-color 0.2s ease; /* Transición suave al hacer hover */
+}
+
+.section-lt::-webkit-scrollbar-thumb:hover {
+    background-color: #555;  /* Cambiar el color del thumb al hacer hover */
+}
+
+
+.lt-ul {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 15px;
+}
+
